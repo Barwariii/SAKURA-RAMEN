@@ -1,0 +1,213 @@
+/* Mobile Device version */
+
+@media(max-width: 700px) {
+
+    /* sec1 head */
+    .hide-mobile {
+        display: none;
+    }
+
+    .navbar {
+        margin: 0px 16px;
+        height: 64px;
+    }
+
+    .logo {
+        width: 40px;
+        height: 40px;
+    }
+
+    .call-btn {
+        font-size: 16px;
+
+    }
+
+    .headline-sec1 {
+        margin-top: 40px;
+    }
+
+    .main-text1 {
+        text-align: center;
+        font-size: 44px;
+        font-family: "Raleway", sans-serif;
+    }
+
+    .side-text1 {
+        font-size: 16px;
+        font-family: "Raleway", sans-serif;
+        font-weight: 300;
+    }
+
+    /* sec2 how to order */
+
+    .hto {
+        margin-top: 72px;
+    }
+
+    .headline-sec2 {
+        text-align: center;
+        font-size: 40px;
+        margin-top: 0;
+        margin-bottom: 32px;
+    }
+
+    .order {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 40px;
+    }
+
+    .order-img {
+        width: 112px;
+    }
+
+    .hto-order {
+        padding-bottom: 32px;
+        display: flex;
+        align-items: center;
+    }
+
+    .order-text {
+        font-size: 32px;
+    }
+
+    /* our menu sec */
+
+    .sec3 {
+        margin: 0;
+    }
+
+    .headline-sec3 {
+        font-size: 40px;
+        margin: 0;
+        padding-top: 72px;
+        padding-bottom: 40px;
+    }
+
+    .dish {
+        display: flex;
+        justify-content: center;
+    }
+
+    .menu-img {
+        width: 352px;
+        height: 352px;
+    }
+
+    .menu {
+        align-items: center;
+    }
+
+    .dishname {
+        font-size: 32px;
+        margin-top: 24px;
+        margin-bottom: 16px;
+    }
+
+    table {
+        font-size: 24px;
+        margin-bottom: 32px;
+        /* display: flex; */
+        /* justify-content: space-between; */
+    }
+
+    tr {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .dishart {
+        padding: 0;
+    }
+
+    .prices {
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    /* tonkotsu dish */
+    .tonkotsu-tb {
+        display: flex;
+        flex-direction: column;
+    }
+
+    /* spicymiso dish */
+
+    .spicymiso-tb {
+        display: flex;
+        flex-direction: column;
+    }
+
+    /* shio dish */
+    .shio-tb {
+        display: flex;
+        flex-direction: column;
+    }
+
+    /* SEC4 FIND US AT */
+    .sec4 {
+        padding-top: 72px;
+    }
+
+
+    .headline-sec4 {
+        font-size: 40px;
+        text-align: center;
+        margin: 0;
+    }
+
+    .maps-marker-icon {
+        width: 20px;
+        height: 20px;
+    }
+
+    .sakura-adress {
+        font-size: 16px;
+        font-family: "Raleway", sans-serif;
+        margin-top: 8px;
+        margin-bottom: 40px;
+    }
+
+    .googlemaps {
+        width: 100%;
+        height: 450px;
+        padding-bottom: 10px;
+    }
+
+    /* sec5 footer */
+    footer {
+        height: 144px;
+        background-color: #0A141E;
+        display: flex;
+        justify-content: space-between;
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+
+    .footer-logo {
+        display: none;
+    }
+
+    .footer-logo-mobile-ipad {
+        display: block;
+        height: 40px;
+    }
+
+
+    .sm-logo {
+        width: 32px;
+        height: 32px;
+    }
+}
+
+/* resposive for 320px */
+@media(max-width: 350px) {
+    .menu-img {
+        width: 300px;
+        height: 300px;
+    }
+    
+}

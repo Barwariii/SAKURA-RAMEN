@@ -1,0 +1,308 @@
+html {
+    scroll-behavior: smooth;
+}
+
+
+body {
+    margin: 0;
+    object-fit: cover;
+
+}
+
+/* sec1 head */
+.sec1 {
+    height: 100vh;
+    width: 100%;
+    background-image: url(./img/1hero/hero_bg.jpg);
+    background-position: center;
+    background-size: cover;
+    font-family: "Raleway", sans-serif;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 160px;
+    margin-right: 160px;
+    height: 112px;
+    font-size: 24px;
+}
+
+
+.logo {
+    background-image: url(./img/1hero/sakura_logo.png);
+    background-size: cover;
+    width: 64px;
+    height: 64px;
+    left: 160px;
+    right: 160px;
+}
+
+.list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 60px;
+}
+
+.navlist {
+    gap: 60px;
+    color: white;
+    cursor: pointer;
+    text-decoration: none;
+
+}
+
+.navlist:hover {
+    text-decoration: underline;
+    color: white;
+}
+
+
+.call-btn {
+    display: flex;
+    justify-content: flex-start;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #9F0908;
+    /* border-color: white; */
+    padding: 8px;
+    border-radius: 10px;
+    border: 8px;
+    border-width: 2px;
+    border-style: solid;
+    cursor: pointer;
+    color: white;
+    text-decoration: none;
+}
+
+
+.call-btn:hover {
+    background-color: #f10808;
+}
+
+
+.headline-sec1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 0;
+    color: white;
+}
+
+.main-text1 {
+    font-size: 96px;
+    font-weight: bold;
+    margin: 0;
+
+}
+
+.side-text1 {
+    font-size: 24px;
+}
+
+/* sec2 how to order */
+.hto {
+    display: flex;
+    justify-content: center;
+}
+
+.headline-sec2 {
+    font-size: 80px;
+    color: #9F0908;
+    font-family: "Raleway", sans-serif;
+}
+
+.order {
+    display: flex;
+    justify-content: space-around;
+    font-family: "Economica", sans-serif;
+    font-weight: 700;
+
+}
+
+.noodle {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    width: 128px;
+    font-size: 40px;
+
+}
+
+.noodle-img {
+    margin-bottom: 16px;
+}
+
+.broth {
+    width: 128px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    font-size: 40px;
+}
+
+.broth-img {
+    margin-bottom: 16px;
+}
+
+.toppings {
+    width: 128px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    font-size: 40px;
+}
+
+.toppings-img {
+    margin-bottom: 16px;
+}
+
+
+
+/* our menu sec */
+
+.sec3 {
+    background-image: url(./img/section3/section_our_menu_bg.jpg);
+    background-position: center;
+    background-size: cover;
+    margin-top: 120px;
+}
+
+.menu {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+.menu-img {
+    width: 352px;
+    height: 352px;
+}
+
+
+.headline-sec3 {
+    display: flex;
+    justify-content: center;
+    padding-top: 120px;
+    padding-bottom: 64px;
+    font-family: "Raleway", sans-serif;
+    font-weight: bold;
+    font-size: 80px;
+    color: #9F0908
+}
+
+.prices {
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
+table {
+    font-family: "Raleway", sans-serif;
+    font-size: 32px;
+    font-weight: bold;
+    color: #675E54;
+}
+
+.dishname {
+    font-family: "Economica", sans-serif;
+    font-weight: bold;
+    font-size: 56px;
+    margin-bottom: 16px;
+}
+
+.dishart {
+    padding-right: 260px;
+}
+
+/* tonkotsu dish */
+.tonkotsu-tb {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 56px;
+
+}
+
+/* spicymiso dish */
+
+.spicymiso-tb {
+    display: flex;
+    justify-content: center;
+    flex-direction: row-reverse;
+    margin-bottom: 56px;
+}
+
+/* shio dish */
+.shio-tb {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 56px;
+}
+
+
+/* SEC4 FIND US AT */
+.sec4 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 120px;
+}
+
+
+.headline-sec4 {
+    font-size: 80px;
+    font-family: "Raleway", sans-serif;
+    font-weight: bold;
+    color: #9F0908;
+    margin-bottom: 8px;
+}
+
+.maps-marker-icon {
+    width: 20px;
+    height: 20px;
+}
+
+.sakura-adress {
+    font-size: 24px;
+    font-family: "Raleway", sans-serif;
+    margin-bottom: 64px;
+}
+
+.googlemaps {
+    width: 100%;
+    height: 450px;
+    padding-bottom: 10px;
+}
+
+/* sec5 footer */
+footer {
+    height: 144px;
+    background-color: #0A141E;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+.footer-logo {
+    height: 44px;
+}
+
+.footer-logo-mobile-ipad {
+    display: none;
+}
+
+.sm {
+    display: flex;
+    gap: 10px;
+}
+
+.sm-logo {
+    width: 40px;
+    height: 40px;
+}
